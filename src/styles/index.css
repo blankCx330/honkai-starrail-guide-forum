@@ -1,0 +1,36 @@
+/**
+ * 全局样式
+ * 
+ * 此文件导入所有全局样式
+ */
+
+/* CSS 变量已在 src/index.css 中定义 */
+
+/* 动画定义 */
+.fade-in {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* 常用样式 */
+.flex {
+  display: flex;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
