@@ -13,7 +13,7 @@ export const App = () => {
   return (
     <div className="app">
       <header className="app-header">
-        <h1>React + TypeScript + Redux</h1>
+        <h1 className="text-blue-500">React + TypeScript + Redux</h1>
         <p>项目模板已初始化，请开始开发</p>
       </header>
       <main className="app-main">

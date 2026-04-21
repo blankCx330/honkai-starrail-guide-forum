@@ -17,7 +17,6 @@
     "resolveJsonModule": true,
 
     /* Path aliases */
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },

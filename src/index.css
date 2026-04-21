@@ -1,6 +1,7 @@
 /**
  * 全局样式入口
  */
+@import "tailwindcss";
 
 /* CSS 变量 */
 :root {
